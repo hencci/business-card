@@ -12,7 +12,7 @@ body {
     position: relative;
     width: 600px;
     height: 320px;
-    background-color: #000;
+    background-color: white;
     border-radius: 16px;
     overflow: hidden;
     color: white;
@@ -28,7 +28,7 @@ body {
     position: absolute;
     inset: 0;
     background: url('images/family-photo.jpg') center/cover no-repeat;
-    opacity: 0.15;
+    opacity: 0.1;
     transition: opacity 0.5s ease;
     z-index: 0;
 }
@@ -60,7 +60,7 @@ body {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: white;
+    color: black;
 }
 
 .card p {
@@ -68,7 +68,7 @@ body {
     line-height: 1.6;
     margin-bottom: 1.5rem;
     max-width: 90%;
-    color: white;
+    color: black;
 }
 
 .button {
@@ -85,6 +85,9 @@ body {
 
 .card:hover .button {
     background-color: #ff7f00;
+    color: white;
+}
+.card:hover h2, .card:hover p {
     color: white;
 }
 
